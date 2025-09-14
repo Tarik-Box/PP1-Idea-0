@@ -1,2 +1,52 @@
 /* Import Fonts from Google "Roboto+Mono" */
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&family=Roboto:wght@400;500;700&display=swap');
+
+/*Start of Global Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Globals */
+body{
+    min-height: 100vh;
+    /* Project style */
+    display: grid;
+    grid-template-areas:
+        "header header header"
+        "main main side"
+        "copyright social social";
+    gap: 2rem;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 3rem;
+    background-image: linear-gradient(to left top, #430049, #4d0363, #39025d, #240256, #06004e);
+    color: #fff;
+}
+/* remove Bullets from evey unordered list  */
+ul {
+    list-style: none;
+}
+/* every a Tag will be the same */
+a {
+    text-decoration: none;
+    color: #fff;
+    letter-spacing: 2px;
+}
+/* Ends of Globals */
+/* ----------------------------------- */
+
+
+
+
+header{
+    grid-area: header;
+    width: 100%;
+    background-color: rgb(255, 0, 0);
+}
+main{
+    background-color: blue;
+}
+footer{
+    background-color: green;
+}
