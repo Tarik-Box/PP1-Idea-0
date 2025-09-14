@@ -14,10 +14,9 @@
     display: grid;
     grid-template-areas:
         "header header header"
-        "main main side"
-        "copyright social social";
-    gap: 2rem;
-    padding: 1em 0;
+        "main main main"
+        "social social social";
+        gap: 2rem;
     /* Body style */
     font-family: 'Roboto Mono', monospace;
     font-size: 0.8rem;
@@ -38,20 +37,23 @@ a {
 /* ----------------------------------- */
 
 
-
 /* Header */
 header{
     /* place on body */
     grid-area: header;
     width: 100%;
     /* withen header */
-    display: flex;
-    position: fixed;
+    display: grid;
+    grid-template-areas: 
+    "heading"
+    "nav";
     box-shadow: -2px 1px 0 0 #b700ff73;
     border-radius: 2rem;
-    justify-content: space-between; 
-    align-items: baseline;
-    padding: 1em;
+    padding: 0.5em;
+    margin: auto;
+    text-align: center;
+    letter-spacing: 1px;
+    text-indent: 5px;
 }
 #logo{
     position: absolute;
@@ -64,53 +66,66 @@ header{
 }
 h1{
     text-transform: uppercase;
-    color: inherit;
-    letter-spacing: 2px;
-    margin-bottom: 0.5rem;
+    letter-spacing: 0;
 }
 #hero-title {
     font-size: 2.5rem;
-    padding: 5px;
     animation: typing 2s steps(25) normal;
     white-space: nowrap;
     overflow: hidden;
 }
+.ballalyze p{
+    display: none;
+    
+}
+#nav-links{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 0.5em 0;
+    font-size: 1.2em;
+}
 #nav-links li{
     margin:0.5em 0.2em;
 }
-nav{
-    position: absolute;
-    width: 100%;
-    top: 100%;
-    left: 0;
-    padding: 0 1em;
-    box-shadow: -2px 1px 0 0 #b700ff73;
-    display: none;
-}
-#nav-toggle:checked~nav{
-    display: block;
-    padding: 0.5em;
-    box-shadow: -2px 0 0 0 #b700ff73;
-    border-radius: 0 0 2em 2em;
-}
-#nav-toggle{
-    display: none;
-}
-.nav-toggle-label{
-    font-size: 2rem;
-}
 
-
-
+.active{
+    text-shadow: -1px -1px 5px  #b700ff;
+}
 
 
 
 /* main */
 main{
-    grid-area: main;
-    margin-top: 14rem;
+    grid-area: main ;
+    box-shadow: -1px 1px 4px 0 #000000bf;
+    border-radius: 2rem;
+    padding: 2em;  
+    width: 100%;    
 }
+/* Footer */
 footer{
     grid-area: social;
-    background-color: green;
+    border-radius: 2rem;
+    box-shadow: -1px 1px 4px 0 #000000bf;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
 }
+footer img {
+    max-width: 75%;
+    width: auto;
+    height: auto;
+}
+#social{
+    display: flex;
+    justify-content: center;
+    padding: 1em 0;
+}
+.copyright{
+    padding: 1em;
+}
+
+
