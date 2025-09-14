@@ -241,8 +241,6 @@ iframe {
     width: 75%;
 }
 
-/* contac */
-
 /* Contact */
 .contact-container {
     font-family: monospace;
@@ -330,8 +328,27 @@ iframe {
     box-shadow: 1px 2px 10px 2px #a400f7bf;
 }
 
+/* About */
+.about {
+    grid-area: about;
+    background: rgba(255, 255, 255, 0.08);
+    border-radius: 1rem;
+    padding: 2rem;
+    text-align: center;
 
+}
 
+.about h3{
+    font-size: 2em;
+    font-family: monospace, 'Courier New', Courier, sans-serif;
+    font-style: oblique;
+}
+.about p {
+    font-size: 1.2rem;
+    margin: 1rem 0;
+    line-height: 1.5;
+    font-family: 'Courier New', Courier, monospace;
+}
 
 
 
