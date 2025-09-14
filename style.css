@@ -500,5 +500,53 @@ footer img {
         gap: 2em;
     }
 
+    #reports {
+        grid-area: main;
+        display: grid;
+        grid-template-areas:
+        "image"
+        "paragraph"
+        "video";
+        gap: 2rem;
+    }
+    .player-report-info {
+        grid-area: image;
+        writing-mode: vertical-rl;
+        text-orientation: upright;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+    }
+    #player-report-image {
+        grid-area: image;
+        width: auto;
+        height: 320px;
+        border-radius: 3rem;
+        box-shadow: -1px 1px 4px 0 #000000bf;
+    }
+
+    .report-stats-map {
+        max-width: 100%;
+        max-height: auto;
+        grid-area: statmap;
+        display: flex;
+        align-items: center;
+        font-size: 1.3rem;
+    }
+    .report-stats-map #heat-map {
+        border-radius: 3rem;
+        box-shadow: -1px 1px 4px 0 #000000bf;
+    }
+    .contact-container{
+        grid-area: main;
+        width: 100%;
+        margin: 0 auto;
+    }
+    .contact-form textarea {
+        width: 90%;
+        height: 20rem;
+    }
+
 
 }
