@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="BallAlyze - Analyze and visualize ball data with ease.">
-    <meata name="keywords" content="BallAlyze, Football , ball analysis, data visualization, sports analytics ,Soccer, Data Analysis">
     <meta name="author" content="Tarik Ataia">
     <!-- Favicon -->
     <link rel="icon" type="image/png" sizes="32x32" href="icons/ballalyze_favicon_48x48.png">
@@ -20,7 +19,7 @@
             <!-- logo -->
             <a href="index.html" aria-label="BallAlyze Home Page"
             ><img id="logo" src="images/logo.png" alt="BallAlyze logo"
-            /></a>
+            ></a>
             <!-- Small Container for H1 and P tags "About the page" -->
             <div class="ballalyze" aria-labelledby="hero-title">
                 <h1 id="hero-title">BallAlyze</h1>
@@ -29,12 +28,12 @@
                 </p>
             </div>
             <!-- Main Navigation Bar "Links" -->
-            <nav class="nav-bar" aria-label="Main Navigation" role="navigation">
+            <nav class="nav-bar" aria-label="Main Navigation">
                 <ul id="nav-links" class="nav-links" >
                     <li><a href="index.html" class="active">Home</a></li>
                     <li><a href="#cards">Cards</a></li>
                     <li><a href="report.html">Reports</a></li>
-                    <li><a href="statistics.html">Statistics</a></li>
+                    <li id="to-side"><a href="statistics.html">Statistics</a></li>
                     <li><a href="about.html">About</a></li>
                     <li><a href="contact.html">Contact</a></li>
                 </ul>
@@ -42,7 +41,7 @@
         </header>
 
         <!-- Main Section -->
-        <main aria-label="Main Content">
+        <main id="main-section" aria-label="Main Content">
             <!-- Cards section to present most rated player ,, still random for now  -->
             <section aria-label="Players Card Section" id="cards">
                 <div class="cards-container">
@@ -57,7 +56,7 @@
                                 class="player-pic"
                                 src="images/lamine.jpg"
                                 alt="Portrait of Lamine Yamal"
-                                />
+                                >
                                 <p><span>Barcelona</span></p>
                                 <p>18 Years old</p>
                                 <p>Right Winger</p>
@@ -72,7 +71,7 @@
                                     class="player-pic"
                                     src="images/mbsppe.jpg"
                                     alt="Portrait of Mbappe"
-                                />
+                                >
                                 <p><span>Real Madrid</span></p>
                                 <p>26 Years old</p>
                                 <p>Left Winger</p>
@@ -87,7 +86,7 @@
                                     class="player-pic"
                                     src="images/halaand.jpg"
                                     alt="Portrait of Haaland"
-                                />
+                                >
                                 <p><span>Man City</span></p>
                                 <p>25 Years old</p>
                                 <p>Striker</p>
@@ -102,7 +101,7 @@
                                     class="player-pic"
                                     src="images/taty.jpg"
                                     alt="Portrait of Taty Castellanos"
-                                />
+                                >
                                 <p><span>Lazio</span></p>
                                 <p>26 Years old</p>
                                 <p>Striker</p>
@@ -117,7 +116,7 @@
                                     class="player-pic"
                                     src="images/doan.jpg"
                                     alt="Portrait of Ritsu Doan"
-                                />
+                                >
                                 <p><span>Frankfurt</span></p>
                                 <p>27 Years old</p>
                                 <p>Right Winger</p>
@@ -132,7 +131,7 @@
                                     class="player-pic"
                                     src="images/kean.jpg"
                                     alt="Portrait of Harry Kane"
-                                />
+                                >
                                 <p><span>Bayern Munich</span></p>
                                 <p>32 Years old</p>
                                 <p>Striker</p>
@@ -141,6 +140,45 @@
                     </div>
                 </div>
             </section>
+            <!-- Side Bar with statistics , players overpreforming -->
+            <!-- this side will be only visable on big devices and part of nav on smaller devices -->
+            <aside aria-label="Players Statistics ." id="to-hide" class="to-show">
+                <h3 id="side-title">Statistics</h3>
+                <div class="stats-wraper">
+                    <div class="side-stats">
+                        <p class="side-player-name">Serhou Guirassy</p>
+                        <img
+                        src="images/Guirassy.jpg"
+                        alt="a pictuer that shows player named Guirassy"
+                        />
+                        <p>Borussia Dortmund</p>
+                        <p>29 years old Forward</p>
+                        <p><span>1.67</span> expected goals per 90</p>
+                    </div>
+                    <div class="side-stats">
+                        <p class="side-player-name">Mats Wieffer</p>
+                        <img
+                        src="images/Wieffer.jpg"
+                        alt="a pictuer that shows player named Wiefer"
+                        />
+                        <p>Brighton & Hove Albion</p>
+                        <p>25 Defensives Midlfelder</p>
+                        <p><span>3.42</span> Tackles per 90</p>
+                        <p><span>2.21</span> Clearance per 90</p>
+                    </div>
+                    <div class="side-stats">
+                        <p class="side-player-name">Nicolo Rovella</p>
+                        <img
+                        src="images/Rovella.jpg"
+                        alt="a pictuer that shows player named Rovella"
+                        />
+                        <p>Lazio</p>
+                        <p>23 Defensives Midfelder</p>
+                        <p><span>4.5</span> Key Passes per 90</p>
+                        <p><span>90.8%</span> Passing Accuracy per 90</p>
+                    </div>
+                </div>
+            </aside>
         </main>
         <!-- Footer -->
         <footer>
@@ -150,35 +188,35 @@
                     <a href="http://github.com/tarik-box" target="_blank">
                         <img 
                         src="https://img.icons8.com/nolan/64/github.png" 
-                        alt="github"/>
+                        alt="github">
                     </a>
                 </li>
                 <li>
                     <a href="http://linkedin.com/in/tarik-ataia-a0763a383" target="_blank">  
                         <img 
                         src="https://img.icons8.com/nolan/64/linkedin.png" 
-                        alt="linkedin"/>
+                        alt="linkedin">
                     </a>
                 </li>
                 <li>
                     <a href="https://x.com/AtaiaTarik" target="_blank">
                         <img 
                         src="https://img.icons8.com/nolan/64/twitterx.png" 
-                        alt="twitterx"/>
+                        alt="twitterx">
                     </a>
                 </li>
                 <li>
                     <a href="https://www.facebook.com/profile.php?id=61580464472525" target="_blank">
                         <img 
                         src="https://img.icons8.com/nolan/64/facebook.png" 
-                        alt="facebook"/>
+                        alt="facebook">
                     </a>
                 </li>
                 <li>
                     <a href="https://www.youtube.com/@AllAlyze" target="_blank">
                         <img
                         src="https://img.icons8.com/nolan/64/youtube-play.png"
-                        alt="youtube-play"/>
+                        alt="youtube-play">
                     </a>
                 </li>
             </ul>
