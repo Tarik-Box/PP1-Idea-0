@@ -46,11 +46,11 @@ It simulates a small-scale football analytics platform where users can view stat
 
 ## 📸 Preview :
 
-![Preview Image 1](images
-/resp-1.png)
+<img width="800" height="651" alt="resp-1" src="https://github.com/user-attachments/assets/e0c4b622-7082-4a39-adcd-7551f2ad25bd" />
 
-![Preview Image 2](images
-/resp-2.png)
+<img width="800" height="652" alt="resp-2" src="https://github.com/user-attachments/assets/c0245a08-bba2-4f54-a60f-6d7732b61ecc" />
+
+
 
 ## Author :
 
@@ -60,4 +60,5 @@ This project is part of my front-end development learning journey as well as a v
 ## Disclamer:
 
 All icons and images used on this website are provided strictly for educational and learning purposes only.
+
 
