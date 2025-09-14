@@ -94,7 +94,6 @@ h1{
 }
 
 
-
 /* main */
 main{
     grid-area: main ;
@@ -113,15 +112,43 @@ main{
     justify-self: center;
     box-shadow: 0 1px 1px 1px #b700ff73;
     width: 100%;
+    border-radius: 2em;
 }
 .player-card:hover {
     box-shadow: 1px 1px 0 0 #fff;
 }
-
-
-
-
-
+.player-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 2em 0;
+    background-image: linear-gradient(to right bottom, #43004911, #4d036311, #39025d11, #24025611, #07004e11);
+    border-radius: 2em;
+    font-weight: lighter;
+    letter-spacing: 0;
+}
+.player-info > h3 {
+    text-transform: uppercase;
+}
+.player-info p {
+    font-size: 0.8rem;
+    line-height: 15px;
+}
+.player-info span {
+    background-color: #5b016d;
+    padding: 0.2rem 0.5rem;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: bold;
+}
+.player-pic {
+    max-width: 100px;
+    max-height: auto;
+    border-radius: 10%;
+    border: 1px solid #fff;
+    margin: 0.5em 0;
+}
 
 /* Footer */
 footer{
@@ -155,9 +182,6 @@ footer img {
     opacity: 0.7;
     font-style: italic;
 }
-
-
-
 
 /* Keyframes */
 @keyframes typing {
