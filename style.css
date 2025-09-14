@@ -9,17 +9,17 @@
 }
 
 /* Body Globals */
-body{
+.main-container {
     min-height: 100vh;
-    /* Project style */
     display: grid;
     grid-template-areas:
         "header header header"
         "main main side"
         "copyright social social";
-    gap: 2rem;
+    gap: 1rem;
+    /* Body style */
     font-family: 'Roboto Mono', monospace;
-    font-size: 3rem;
+    font-size: 1rem;
     background-image: linear-gradient(to left top, #430049, #4d0363, #39025d, #240256, #06004e);
     color: #fff;
 }
@@ -40,13 +40,17 @@ a {
 
 
 header{
+    
     grid-area: header;
     width: 100%;
+
     background-color: rgb(255, 0, 0);
 }
 main{
+    grid-area: main;
     background-color: blue;
 }
 footer{
+    grid-area: social;
     background-color: green;
 }
