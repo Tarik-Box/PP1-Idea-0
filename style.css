@@ -88,6 +88,9 @@ h1{
 #nav-links li{
     margin:0.5em 0.2em;
 }
+.nav-bar a:hover {
+    text-shadow: -1px -1px 5px #fafafa;
+}
 /* active page */
 .active{
     text-shadow: -1px -1px 5px  #b700ff;
@@ -541,5 +544,8 @@ footer img {
     .contact-form textarea {
         width: 90%;
         height: 20rem;
+    }
+    #nav-links li{
+        margin:0.5em 1rem;
     }
 }
