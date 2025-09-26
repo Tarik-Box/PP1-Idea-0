@@ -5,89 +5,112 @@ The goal of this project is to practice semantic HTML structure, accessibility f
 
 *The project is deployed on GitHub Pages and can be viewed* [here](https://tarik-box.github.io/PP1-Idea-0/)
 
-## Features:
+---
 
-* Responsive layout using CSS Grid and Flexbox.
-* Semantic HTML elements (`<header>`, `<main>`, `<section>`, `<aside>`, `<footer>` .....).
-* Multiple pages: Home, About, Report, Contact,Statistics .
-* Accessible design with **ARIA labels** for screen readers.
-* Stylish hover effects and smooth transitions in CSS.
-* Interactive navigation bar with hover and active states.
-* "About Us" section for presentation.
-* Player cards for presenting information (non-clickable).
+## Features
 
-## Project Structure:
+- Responsive layout using CSS Grid and Flexbox.
+- Semantic HTML elements (`<header>`, `<nav>` , `<main>`, `<section>`,`<article>`, `<aside>`, `<footer>`).
+- Multiple pages: Home, About, Report, Contact, Statistics.
+- Accessible design with **ARIA labels** for screen readers.
+- Stylish hover effects and smooth transitions in CSS.
+- Interactive navigation bar with hover and active states.
+- "About Us" section for presentation.
+- Player cards for presenting information (non-clickable).
 
-##### Assets :
+---
 
-│── assets/ |── images/       # Project Images
+## Project Structure
 
-│── assets/ |── icons/        # Project Icons
+##### Assets:
 
-│── assets/ |── css/style.css       # CSS styling
+│── assets/
+│   ├── images/       # Project Images
+│   ├── icons/        # Project Icons
+│   └── css/style.css # CSS styling
 
-##### Pages :
-
-│── about.html	       # About Html file
-
-│── contact.html	        # Contact Html file
+##### Pages:
 
 │── index.html       # Main HTML file
+│── about.html       # About page
+│── contact.html     # Contact page
+│── reports.html     # Report page
+│── statistics.html  # Statistics page
 
-│── reports.html       # Report Html file
-
-│── statistics.html        # Statistics Html file
-
-##### Documetation :
+##### Documentation:
 
 │── README.md        # Project documentation
 
-## Technologies Used:
+---
+
+## Technologies Used
 
 - **HTML5**
 - **CSS3** (Grid, Flexbox, animations)
 
-# About:
+---
+
+## About
 
 Ballalyze is designed as a learning project for front-end development training.
-It simulates a small-scale football analytics platform where users can view statistics, player comparisons, and insights in a clean and modern interface . it also part of bigger personal project that one day will find the light .
+It simulates a small-scale football analytics platform where users can view statistics, player comparisons, and insights in a clean and modern interface.
+It is also part of a bigger personal project that will one day see the light.
 
-## User Experience (UX):
+---
 
-##### User Stories :
+## User Experience (UX)
+
+##### User Stories:
 
 - **As a football fan**, I want to see player statistics so I can compare players visually.
 - **As a recruiter**, I want to navigate the site easily to find key player info.
 
-### Wireframes:
+### Wireframes
 
-Home Page wireframe Example :![home page wireframe](assets/images/wf-home.png "Home Page wireframe Example")
+#### Home Page Wireframe
 
-Other Pages ( Report , About and Contact ) wireframe Example :
+![Home Page Wireframe](assets/images/readme/home.png)
 
-<img width="1000" height="651" alt="wireframe example for other pages" src="assets/images/wf-rest.png">
+#### About Page Wireframe
 
-## 📸 Preview :
+![About Page Wireframe](assets/images/readme/about.png)
 
-Am I Responsive result :
-[link](https://ui.dev/amiresponsive?url=https://tarik-box.github.io/PP1-Idea-0/index.html)
+#### Report Page Wireframe
 
-Example images :
+![Report Page Wireframe](assets/images/readme/wf-report.png)
 
-<img width="800" height="651" alt="resp-1" src="https://github.com/user-attachments/assets/e0c4b622-7082-4a39-adcd-7551f2ad25bd" />
+#### Contact Page Wireframe
 
-<img width="800" height="652" alt="resp-2" src="https://github.com/user-attachments/assets/c0245a08-bba2-4f54-a60f-6d7732b61ecc" />
+![Contact Page Wireframe](assets/images/readme/contact.png)
+
+---
 
 
 
-## Author :
+## 📸 Preview
+
+Am I Responsive result:
+[View Responsive Test](https://ui.dev/amiresponsive?url=https://tarik-box.github.io/PP1-Idea-0/index.html)
+
+Example images:
+
+![Responsive design 1](assets/images/readme/resp-1.png)
+![Responsive design 2](assets/images/readme/resp-2.png)
+
+---
+
+## Author
 
 Created by *Tarik Ataia*
-This project is part of my front-end development learning journey as well as a vision of very big Project
+This project is part of my front-end development learning journey as well as a vision for a larger personal project.
 
-## Disclamer:
+---
 
-All icons and images used on this website are provided strictly for educational and learning purposes only.
+## Disclaimer
+
+All icons and images used on this website are provided strictly for **educational and learning purposes only**.
+
+---
 
 ## Installation
 
@@ -99,14 +122,19 @@ git clone https://github.com/Tarik-Box/PP1-Idea-0.git
 
 Open `index.html` in your browser to view the project locally.
 
+---
+
 ## Usage
 
 * Navigate through different pages using the navbar.
 * Hover over navigation links to see the active state highlight.
 * The layout is responsive and adapts to different screen sizes.
+* On the Statistics page, users can see the most highlighted player attributes for different players.
+
+---
 
 ## Credits / Attributions
 
-- *HTML5* and *CSS3* for structure and styling.
-- Icons sourced from [FontAwesome](https://fontawesome.com/).
-- Images sourced from Google Images.
+* *HTML5* and *CSS3* for structure and styling.
+* Icons sourced from [FontAwesome](https://fontawesome.com/) under free-to-use license.
+* Images sourced from Google Images (used for educational purposes only).
