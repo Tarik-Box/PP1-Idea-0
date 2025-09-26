@@ -54,7 +54,7 @@ The goal of this project is to practice semantic HTML structure, accessibility f
 
 Ballalyze is designed as a learning project for front-end development training.
 It simulates a small-scale football analytics platform where users can view statistics, player comparisons, and insights in a clean and modern interface.
-It is also part of a bigger personal project that will one day see the light.
+It is also part of a larger personal project that will one day come to fruition.
 
 ---
 
@@ -64,6 +64,8 @@ It is also part of a bigger personal project that will one day see the light.
 
 - **As a football fan**, I want to see player statistics so I can compare players visually.
 - **As a recruiter**, I want to navigate the site easily to find key player info.
+
+---
 
 ### Wireframes
 
@@ -84,8 +86,6 @@ It is also part of a bigger personal project that will one day see the light.
 ![Contact Page Wireframe](assets/images/readme/contact.png)
 
 ---
-
-
 
 ## 📸 Preview
 
@@ -130,6 +130,8 @@ Open `index.html` in your browser to view the project locally.
 * Hover over navigation links to see the active state highlight.
 * The layout is responsive and adapts to different screen sizes.
 * On the Statistics page, users can see the most highlighted player attributes for different players.
+* On the Reports page, users can view summaries of player performance.
+* On the About page, users can learn about the project and its purpose.
 
 ---
 
