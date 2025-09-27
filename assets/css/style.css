@@ -410,12 +410,13 @@ footer{
     box-shadow: -1px 1px 4px 0 #000000bf;
     text-align: center;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
 }
 footer img {
-    max-width: 75%;
+    max-width: 65%;
     width: auto;
     height: auto;
 }
