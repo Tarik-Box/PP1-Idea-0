@@ -145,6 +145,20 @@ Example images:
 ![Responsive design 1](assets/images/readme/resp-1.png)
 ![Responsive design 2](assets/images/readme/resp-2.png)
 
+![Responsive design ](assets/images/readme/4k.png)
+
+![Responsive design ](assets/images/readme/1440.png)
+
+![Responsive design ](assets/images/readme/1024.png)
+
+![Responsive design ](assets/images/readme/768.png)
+
+![Responsive design ](assets/images/readme/425.png)
+
+![Responsive design ](assets/images/readme/375.png)
+
+![Responsive design ](assets/images/readme/320.png)
+
 ---
 
 ## Author
