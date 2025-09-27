@@ -50,13 +50,19 @@ The goal of this project is to practice semantic HTML structure, accessibility f
 
 ---
 
-
-
 ## Validation
 
 All HTML and CSS files have been checked using the official validators:
 
 ### HTML Validation
+
+Index Page
+
+![Index HTML Validation](assets/images/readme/validation/index-html.png)
+
+
+
+Reports Page
 
 
 ---
