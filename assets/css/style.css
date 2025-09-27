@@ -111,16 +111,31 @@ main{
 }
 
 /* Cards */
+#cards{
+    text-align: center;
+}
+#cards h2{
+    font-size: 2rem;
+    font-style: oblique;
+    font-family: monospace, 'Courier New', Courier, sans-serif;
+
+}
 .cards-container{
     display: grid;
     grid-template-columns: 1fr;
-    gap: 1rem;
+    gap: 0.5rem;
+    margin: 0.5em;
 }
 .player-card {
-    justify-self: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+    flex-wrap: wrap;
     box-shadow: 0 1px 1px 1px #b700ff73;
     width: 100%;
     border-radius: 2em;
+    
 }
 .player-card:hover {
     box-shadow: 1px 1px 0 0 #fff;
@@ -156,6 +171,14 @@ main{
     border-radius: 10%;
     border: 1px solid #fff;
     margin: 0.5em 0;
+}
+/* Palyer Stats Container */
+.player-stats{
+    border-left: 1px solid #c06ae2ec;
+    padding: 1em;
+    margin-bottom: 1em;
+    line-height: 2em;
+    text-align: start;
 }
 
 /* Aside */
@@ -445,6 +468,12 @@ footer img {
 
     to {
         width: 100%;
+    }
+}
+
+@media(max-width: 992px) {
+    .player-card{
+        gap: 25%;
     }
 }
 
