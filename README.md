@@ -56,6 +56,11 @@ All HTML and CSS files have been checked using the official validators:
 
 ### HTML Validation
 
+All HTML pages (`index.html`, `about.html`, `contact.html`, `reports.html`, `statistics.html`) were tested using the [W3C Markup Validation Service](https://validator.w3.org/).
+All pages passed with no errors.
+
+**Example:**
+
 Index Page
 
 ![Index HTML Validation](assets/images/readme/validation/index-html.png)
@@ -82,8 +87,23 @@ Statistics Page
 
 ### CSS
 
-Style File
+The CSS file (`style.css`) was tested using the [W3C Jigsaw CSS Validation Service](https://jigsaw.w3.org/css-validator/).
 
+- **Default Style File**
+
+✅ Validation passed with **no errors**.
+  ⚠️ *One minor warning is shown related to Google Fonts import, which is an external resource and not part of the authored CSS.*
+
+![CSS Validation](assets/images/readme/validation/style.png)
+
+
+- **Autoprefixed Style File**
+
+✅ Validation passed with **no errors**.
+  ⚠️ *162 warnings were reported, all related to vendor-specific prefixes automatically added by Autoprefixer.
+  These warnings do not affect functionality or validity of the CSS and can be safely ignored.*
+
+![CSS Validation - Autoprefixed](assets/images/readme/validation/style-prefix.png)
 
 ---
 
