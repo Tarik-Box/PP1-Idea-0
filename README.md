@@ -182,7 +182,39 @@ Clone the repository:
 git clone https://github.com/Tarik-Box/PP1-Idea-0.git
 ```
 
+## Testing / How to Test
+
+This section explains how to test the functionality, responsiveness, and overall usability of the **Ballalyze** project.
+
 Open `index.html` in your browser to view the project locally.
+
+### 2. Navigation Testing
+
+* Click through all navigation links in the Navbar (`Home`, `About`, `Reports`, `Contact`, `Statistics > "on smaller devices"`) to ensure they direct to the correct pages.
+* Check that the active page is highlighted and underlined in the Navbar.
+* Note: Player cards are non-clickable and do not link to other pages.
+
+---
+
+### 3. Responsiveness Testin
+
+Open Chrome DevTools (F12) or any browser developer tools.
+
+* Use the device toolbar to simulate different screen sizes:
+
+  * Desktop (1920px, 1366px)
+  * Laptop (1280px, 1024px)
+  * Tablet (768px, 600px)
+  * Mobile (375px, 320px)
+* Verify that the layout adjusts correctly, text is readable, and images scale appropriately.
+* Ensure the navigation and content remain usable at all breakpoints.
+
+### 4. Content Verification
+
+* Check each page (`index.html`, `about.html`, `reports.html`, `contact.html`, `statistics.html`) for:
+  * Correct headings, paragraphs, and sections.
+  * Proper display of images and icons.
+  * Consistent design and spacing.
 
 ---
 
