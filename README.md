@@ -69,21 +69,17 @@ Reports Page
 
 ![Report HTML Validation](assets/images/readme/validation/reports.png)
 
-
 About Page
 
 ![About HTML Validation](assets/images/readme/validation/about.png)
-
 
 Contact Page
 
 ![Contact HTML Validation](assets/images/readme/validation/contact.png)
 
-
 Statistics Page
 
 ![Statistics HTML Validation](assets/images/readme/validation/statistics.png)
-
 
 ### CSS
 
@@ -145,19 +141,25 @@ Example images:
 ![Responsive design 1](assets/images/readme/resp-1.png)
 ![Responsive design 2](assets/images/readme/resp-2.png)
 
-![Responsive design ](assets/images/readme/4k.png)
 
-![Responsive design ](assets/images/readme/1440.png)
+Example images for different screen sizes:
 
-![Responsive design ](assets/images/readme/1024.png)
+Desktop / 4K: ![Responsive 4K](assets/images/readme/4k.png)
 
-![Responsive design ](assets/images/readme/768.png)
+Desktop / 1440px: ![Responsive 1440](assets/images/readme/1440.png)
 
-![Responsive design ](assets/images/readme/425.png)
+Laptop / 1024px:
 
-![Responsive design ](assets/images/readme/375.png)
+![Responsive 1024](assets/images/readme/1024.png)
 
-![Responsive design ](assets/images/readme/320.png)
+Tablet / 768px:
+
+![Responsive 768](assets/images/readme/768.png)
+
+
+Mobile / 320px:
+
+![Responsive 320](assets/images/readme/320.png)
 
 ---
 
@@ -188,15 +190,17 @@ This section explains how to test the functionality, responsiveness, and overall
 
 Open `index.html` in your browser to view the project locally.
 
-### 2. Navigation Testing
+### 1. Navigation Testing
 
 * Click through all navigation links in the Navbar (`Home`, `About`, `Reports`, `Contact`, `Statistics > "on smaller devices"`) to ensure they direct to the correct pages.
 * Check that the active page is highlighted and underlined in the Navbar.
 * Note: Player cards are non-clickable and do not link to other pages.
+* On the Reports page, users can view summaries of player performance.
+* On the About page, users can learn about the project and its purpose.
+* On the Contact page, users can view the contact form (if implemented) or contact information to reach out regarding the project.
+* Ensure that headings, paragraphs, and layout display correctly across different screen sizes.
 
----
-
-### 3. Responsiveness Testin
+### 2. Responsiveness Testin
 
 Open Chrome DevTools (F12) or any browser developer tools.
 
@@ -209,25 +213,9 @@ Open Chrome DevTools (F12) or any browser developer tools.
 * Verify that the layout adjusts correctly, text is readable, and images scale appropriately.
 * Ensure the navigation and content remain usable at all breakpoints.
 
-### 4. Content Verification
-
-* Check each page (`index.html`, `about.html`, `reports.html`, `contact.html`, `statistics.html`) for:
-  * Correct headings, paragraphs, and sections.
-  * Proper display of images and icons.
-  * Consistent design and spacing.
-
 ---
 
-## Usage
 
-* Navigate through different pages using the navbar.
-* Hover over navigation links to see the active state highlight.
-* The layout is responsive and adapts to different screen sizes.
-* On the Statistics page, users can see the most highlighted player attributes for different players.
-* On the Reports page, users can view summaries of player performance.
-* On the About page, users can learn about the project and its purpose.
-
----
 
 ## Credits / Attributions
 
