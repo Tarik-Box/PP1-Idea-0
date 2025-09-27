@@ -50,6 +50,17 @@ The goal of this project is to practice semantic HTML structure, accessibility f
 
 ---
 
+
+
+## Validation
+
+All HTML and CSS files have been checked using the official validators:
+
+### HTML Validation
+
+
+---
+
 ## About
 
 Ballalyze is designed as a learning project for front-end development training.
@@ -79,7 +90,7 @@ It is also part of a larger personal project that will one day come to fruition.
 
 #### Report Page Wireframe
 
-![Report Page Wireframe](assets/images/readme/wf-report.png)
+![Report Page Wireframe](assets/images/readme/report.png)
 
 #### Contact Page Wireframe
 
