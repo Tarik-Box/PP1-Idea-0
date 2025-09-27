@@ -89,21 +89,12 @@ Statistics Page
 
 The CSS file (`style.css`) was tested using the [W3C Jigsaw CSS Validation Service](https://jigsaw.w3.org/css-validator/).
 
-- **Default Style File**
+- **Style File**
 
 ✅ Validation passed with **no errors**.
   ⚠️ *One minor warning is shown related to Google Fonts import, which is an external resource and not part of the authored CSS.*
 
 ![CSS Validation](assets/images/readme/validation/style.png)
-
-
-- **Autoprefixed Style File**
-
-✅ Validation passed with **no errors**.
-  ⚠️ *162 warnings were reported, all related to vendor-specific prefixes automatically added by Autoprefixer.
-  These warnings do not affect functionality or validity of the CSS and can be safely ignored.*
-
-![CSS Validation - Autoprefixed](assets/images/readme/validation/style-prefix.png)
 
 ---
 
