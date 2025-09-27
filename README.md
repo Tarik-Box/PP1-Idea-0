@@ -131,7 +131,7 @@ It is also part of a larger personal project that will one day come to fruition.
 
 ---
 
-## 📸 Preview
+## 📸 Preview / Responsiveness
 
 Am I Responsive result:
 [View Responsive Test](https://ui.dev/amiresponsive?url=https://tarik-box.github.io/PP1-Idea-0/index.html)
