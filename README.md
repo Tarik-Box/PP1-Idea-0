@@ -60,9 +60,29 @@ Index Page
 
 ![Index HTML Validation](assets/images/readme/validation/index-html.png)
 
-
-
 Reports Page
+
+![Report HTML Validation](assets/images/readme/validation/reports.png)
+
+
+About Page
+
+![About HTML Validation](assets/images/readme/validation/about.png)
+
+
+Contact Page
+
+![Contact HTML Validation](assets/images/readme/validation/contact.png)
+
+
+Statistics Page
+
+![Statistics HTML Validation](assets/images/readme/validation/statistics.png)
+
+
+### CSS
+
+Style File
 
 
 ---
