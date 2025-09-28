@@ -278,8 +278,10 @@ All icons and images used on this website are provided strictly for **educationa
 ### Content
 
 * *HTML5* and *CSS3* for structure and styling.
+* The text content used in paragraphs throughout the website was generated with the assistance of AI (ChatGPT).
 * Icons sourced from [Icons8](https://icons8.com/) under a free-to-use license.
 * Players' Data/Statistics copied from [WhoScored](http://whoscored.com/)
+* 
 
 ### Media
 
