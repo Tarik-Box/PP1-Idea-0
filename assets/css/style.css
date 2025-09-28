@@ -345,6 +345,7 @@ iframe {
 
 .contact-form .input {
     height: 2rem;
+    width: 10rem;
     text-align: center;
     font-size: 1.1em;
     font-family: monospace;
@@ -580,6 +581,11 @@ footer img {
         grid-area: main;
         width: 100%;
         margin: 0 auto;
+    }
+    .contact-form .input {
+        height: 2rem;
+        width: 20rem;
+        transition: all 1s ease-in-out;
     }
     .contact-form textarea {
         width: 80%;
