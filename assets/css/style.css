@@ -237,9 +237,10 @@ aside h3 {
 
 .report-container h3{
     text-align: center;
-    font-size: 1.9rem;
+    font-size: 2rem;
+    font-style: oblique;
+    font-family: monospace, 'Courier New', Courier, sans-serif;
     margin-bottom: 0.5em;
-    text-transform: uppercase;
 }
 .report-container p{
     text-align: center;
@@ -249,7 +250,7 @@ aside h3 {
 }
 .report-content {
     display: flex;
-    flex-direction: column;
+    justify-content: center;
     gap: 1rem;
     flex-wrap: wrap;
 }
@@ -257,7 +258,7 @@ aside h3 {
     font-weight: bold;
     font-family: 'Courier New', Courier, monospace;
     box-shadow: -1px -1px 0 0 #fff;
-    padding: 1rem;
+    padding: 1rem 0;
     border-radius: 3rem;
 }
 .player-report-info h4 {
@@ -267,9 +268,9 @@ aside h3 {
     font-size: 1.6em;
 }
 #player-report-image {
-    width: auto;
-    height: 360px;
-    border-radius: 1rem;
+    width: 240px;
+    height: 260px;
+    border-radius: 3rem;
 }
 .report-stats-map {
     max-width: 100%;
@@ -282,10 +283,15 @@ aside h3 {
     box-shadow: 1px 1px 0 0 #fff;
     padding: 2rem 0;
 }
+.report-stats-map ul{
+    margin-left: 10%;
+}
 .report-stats-map #heat-map {
-    border-radius: 2rem;
-    max-width: 90%;
+    align-self: center;
+    border-radius: 1rem;
+    max-width: 80%;
     height: auto;
+
 }
 .report-paragraph {
     font-size: 1.1rem;
@@ -299,17 +305,14 @@ aside h3 {
     font-weight: bold;
 }
 .video {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     padding: 2rem 0;
 }
 iframe {
     border: 5px solid #000;
     box-shadow: 1px 1px 5px 1px #aa00ff;
     border-radius: 1rem;
-    min-height: 450px;
-    width: 50%;
+    min-height: 500px;
+    width: 100%;
 }
 
 /* Contact */
@@ -547,6 +550,7 @@ footer img {
         align-items: center;
         flex-direction: column;
         justify-content: center;
+        margin-right: 4rem;
     }
     #player-report-image {
         grid-area: image;
@@ -562,6 +566,7 @@ footer img {
         display: flex;
         align-items: center;
         font-size: 1.3rem;
+        margin-left: 4rem;
     }
     .report-stats-map #heat-map {
         border-radius: 3rem;
@@ -578,5 +583,8 @@ footer img {
     }
     #nav-links li{
         margin:0.5em 1rem;
+    }
+    .video{
+        width: 55%;
     }
 }
