@@ -18,17 +18,17 @@ The project is intended for football enthusiasts and recruiters looking to analy
 
 * **Navigation Bar**
 
-The navigation bar is available across all pages. It helps users easily navigate between sections (Home, About, Reports, Contact, and Statistics 'on smaller Devices') .
+The navigation bar is available across all pages. It helps users easily navigate between sections (Home, About, Reports, Contact, and "Statistics on smaller Devices") .
 
 The active page is highlighted and underlined for better orientation.
 
 ![Navbar](assets/images/readme/nav.png)
 
-* **The landing page**
+* **The Landing Page**
 
 The landing page introduces the project with a clear headline and football-themed visuals, helping users immediately understand the website’s purpose.
 
-![1759027014065](image/README/1759027014065.png)
+![Landing Page](assets/images/readme/landing.png)
 
 * **Player Cards Section**
 
@@ -60,15 +60,21 @@ Includes a simple contact form where users can send messages. It improves commun
 
 ![Contact](assets/images/readme/contact.png)
 
-* **Responsive Design**
-
-The site is fully responsive across devices (desktop, laptop, tablet, mobile). This ensures accessibility and usability for all screen sizes.
-
 * **Footer Section**
 
 Contains relevant information and links. It gives users a consistent closing element across the site, supporting navigation and project credibility.
 
-![1759026848407](image/README/1759026848407.png)
+![Footer](assets/images/readme/footer.png)
+
+* **Responsive Design**
+
+The site is fully responsive across devices (desktop, laptop, tablet, mobile). This ensures accessibility and usability for all screen sizes.
+
+[Am I Responsive !](https://ui.dev/amiresponsive?url=https://tarik-box.github.io/PP1-Idea-0/)
+
+*Image provided at top.
+
+---
 
 ### Features Left to Implement
 
@@ -137,7 +143,7 @@ The CSS file (`style.css`) was tested using the [W3C Jigsaw CSS Validation Servi
 
 ## Deployment
 
-The site was deployed to GitHub Pages . The steps to deploy are as follows:
+The site was deployed to GitHub Pages. The steps to deploy are as follows:
 
 * In the GitHub repository, navigate to the Settings tab.
 * From the Code and automation section on the left, select the Pages.
@@ -162,6 +168,7 @@ All icons and images used on this website are provided strictly for **educationa
 
 ---
 
+---
 
 ## Credits / Attributions
 
@@ -169,7 +176,7 @@ All icons and images used on this website are provided strictly for **educationa
 
 * *HTML5* and *CSS3* for structure and styling.
 * Icons sourced from [Icons8](https://icons8.com/) under free-to-use license.
-* Players Data/Statistics copied from [WhoScored](http://whoscored.com/)
+* Players' Data/Statistics copied from [WhoScored](http://whoscored.com/)
 
 ### Media
 
@@ -177,6 +184,6 @@ All icons and images used on this website are provided strictly for **educationa
 * Logo generated with the assistance of AI (ChatGPT).
 * Embedded video sourced from YouTube channel: [NOTIZIE DI OGGLAZIO ULTIME NOTIZIE](https://www.youtube.com/@NOTIZIEDIOGGILAZIOULTIMENOTIZI)
 
-***All icons and images data used on this website are provided strictly for educational and learning purposes only.***
+***All icons, images, and data used on this website are provided strictly for educational and learning purposes only.***
 
 ---
