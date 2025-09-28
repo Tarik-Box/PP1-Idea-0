@@ -133,6 +133,22 @@ The CSS file (`style.css`) was tested using the [W3C Jigsaw CSS Validation Servi
 ---
 
 
+## Deployment
+
+The site was deployed to GitHub Pages . The steps to deploy are as follows:
+
+* In the GitHub repository, navigate to the Settings tab.
+* From the Code and automation section on the left, select the Pages.
+* From the Source drop-down menu, select the main branch.
+
+Once the main branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+
+*The project is deployed on GitHub Pages and can be viewed* [here](https://tarik-box.github.io/PP1-Idea-0/)
+
+---
+
+
+
 ## Author
 
 Created by *Tarik Ataia*
