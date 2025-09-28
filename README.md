@@ -245,14 +245,12 @@ All icons and images used on this website are provided strictly for **educationa
 
 ---
 
----
-
 ## Credits / Attributions
 
 ### Content
 
 * *HTML5* and *CSS3* for structure and styling.
-* Icons sourced from [Icons8](https://icons8.com/) under free-to-use license.
+* Icons sourced from [Icons8](https://icons8.com/) under a free-to-use license.
 * Players' Data/Statistics copied from [WhoScored](http://whoscored.com/)
 
 ### Media
