@@ -116,7 +116,10 @@ All HTML and CSS files have been checked using the official validators:
 
 ### HTML Validation
 
-All HTML pages (`index.html`, `about.html`, `contact.html`, `reports.html`, `statistics.html`) were tested using the [W3C Markup Validation Service](https://validator.w3.org/nu/?doc=https%3A%2F%2Ftarik-box.github.io%2FPP1-Idea-0%2F).
+All HTML pages (`index.html`, `about.html`, `contact.html`, `reports.html`, `statistics.html`) were tested using the
+
+ [W3C Markup Validation Service](https://validator.w3.org/nu/?doc=https%3A%2F%2Ftarik-box.github.io%2FPP1-Idea-0%2Findex.html).
+
 All pages passed with no errors.
 
 ### CSS
@@ -132,7 +135,6 @@ The CSS file (`style.css`) was tested using the [W3C Jigsaw CSS Validation Servi
 
 ---
 
-
 ## Deployment
 
 The site was deployed to GitHub Pages . The steps to deploy are as follows:
@@ -147,11 +149,9 @@ Once the main branch has been selected, the page will be automatically refreshed
 
 ---
 
-
-
 ## Author
 
-Created by *Tarik Ataia*
+Created by *Tarik Ataia.*
 This project is part of my front-end development learning journey as well as a vision for a larger personal project.
 
 ---
@@ -162,47 +162,21 @@ All icons and images used on this website are provided strictly for **educationa
 
 ---
 
-## Installation
-
-Clone the repository:
-
-```bash
-git clone https://github.com/Tarik-Box/PP1-Idea-0.git
-```
-
-## Testing / How to Test
-
-This section explains how to test the functionality, responsiveness, and overall usability of the **Ballalyze** project.
-
-Open `index.html` in your browser to view the project locally.
-
-### 1. Navigation Testing
-
-* Click through all navigation links in the Navbar (`Home`, `About`, `Reports`, `Contact`, `Statistics > "on smaller devices"`) to ensure they direct to the correct pages.
-* Check that the active page is highlighted and underlined in the Navbar.
-* Note: Player cards are non-clickable and do not link to other pages.
-* On the Reports page, users can view summaries of player performance.
-* On the About page, users can learn about the project and its purpose.
-* On the Contact page, users can view the contact form (if implemented) or contact information to reach out regarding the project.
-* Ensure that headings, paragraphs, and layout display correctly across different screen sizes.
-
-### 2. Responsiveness Testin
-
-Open Chrome DevTools (F12) or any browser developer tools.
-
-* Use the device toolbar to simulate different screen sizes:
-
-  * Desktop (1920px, 1366px)
-  * Laptop (1280px, 1024px)
-  * Tablet (768px, 600px)
-  * Mobile (375px, 320px)
-* Verify that the layout adjusts correctly, text is readable, and images scale appropriately.
-* Ensure the navigation and content remain usable at all breakpoints.
-
----
 
 ## Credits / Attributions
 
+### Content
+
 * *HTML5* and *CSS3* for structure and styling.
-* Icons sourced from [FontAwesome](https://fontawesome.com/) under free-to-use license.
+* Icons sourced from [Icons8](https://icons8.com/) under free-to-use license.
+* Players Data/Statistics copied from [WhoScored](http://whoscored.com/)
+
+### Media
+
 * Images sourced from Google Images (used for educational purposes only).
+* Logo generated with the assistance of AI (ChatGPT).
+* Embedded video sourced from YouTube channel: [NOTIZIE DI OGGLAZIO ULTIME NOTIZIE](https://www.youtube.com/@NOTIZIEDIOGGILAZIOULTIMENOTIZI)
+
+***All icons and images data used on this website are provided strictly for educational and learning purposes only.***
+
+---
