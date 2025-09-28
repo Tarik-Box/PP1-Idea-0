@@ -24,7 +24,9 @@ The active page is highlighted and underlined for better orientation.
 
 ![Navbar](assets/images/readme/nav.png)
 
-###### * The landing page
+
+
+* **The landing page**
 
 The landing page introduces the project with a clear headline and football-themed visuals, helping users immediately understand the website’s purpose.
 
