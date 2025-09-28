@@ -12,8 +12,6 @@ The project is intended for football enthusiasts and recruiters looking to analy
 
 ---
 
-
-
 ## Table of Contents
 
 - [Features](#features)
@@ -86,6 +84,12 @@ The site is fully responsive across devices (desktop, laptop, tablet, mobile). T
 [Am I Responsive !](https://ui.dev/amiresponsive?url=https://tarik-box.github.io/PP1-Idea-0/)
 
 *Image provided at top.
+
+*More images :
+
+```
+assets/images/readme/responsive
+```
 
 ---
 
@@ -213,11 +217,10 @@ The project was tested using **Lighthouse** in Google Chrome DevTools to measure
 
 ![Lighthouse Report - Pc](assets/images/readme/validation/lighthouse-pc.png)
 
+---
 
 ---
 
-
----
 ### Mobile Results
 
 - **Performance:** 62
@@ -228,6 +231,18 @@ The project was tested using **Lighthouse** in Google Chrome DevTools to measure
 ![Lighthouse Report-Mobile](assets/images/readme/validation/lighthouse-mobile.png)
 
 *These results confirm that the site is highly accessible and follows best practices, with excellent SEO. Performance is strong on desktop and can be optimized further for mobile devices.*
+
+---
+
+#### Wireframes:
+
+![Home Page Wireframe](assets/images/readme/wireframes/home.png)
+
+more :
+
+```
+assets/images/readme/wireframes
+```
 
 ---
 
