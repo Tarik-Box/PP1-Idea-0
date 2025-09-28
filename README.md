@@ -6,32 +6,71 @@ The goal of this project is to practice semantic HTML structure, accessibility f
 Ballalyze enables users to explore player statistics, compare performance metrics, and gain insights through a clean and modern interface.
 The project is intended for football enthusiasts and recruiters looking to analyze player performance.
 
-
 ![Am I Responsive Result](assets/images/readme/responsive.png)
-
 
 *The project is deployed on GitHub Pages and can be viewed* [here](https://tarik-box.github.io/PP1-Idea-0/)
 
 ---
 
-## Features
-
-- Responsive layout using CSS Grid and Flexbox.
-- Interactive navigation bar with hover and active states.
-- Semantic HTML elements (`<header>`, `<nav>` , `<main>`, `<section>`,`<article>`, `<aside>`, `<footer>`).
-- Multiple pages: Home, About, Report, Contact, Statistics on smaller devices.
-- Accessible design with **ARIA labels** for screen readers.
-- Stylish hover effects and smooth transitions in CSS.
-- "About Us" section for presentation.
-- Player cards for presenting information (non-clickable).
+## Features:
 
 ### Existing Features
 
-#### Navigation Bar
+* **Navigation Bar**
 
-- Fully responsive navigation bar on all pages.
-- Highlights the active page.
-- Adapts to smaller screens.
+The navigation bar is available across all pages. It helps users easily navigate between sections (Home, About, Reports, Contact, and Statistics 'on smaller Devices') .
+
+The active page is highlighted and underlined for better orientation.
+
+![Navbar](assets/images/readme/nav.png)
+
+###### * The landing page
+
+The landing page introduces the project with a clear headline and football-themed visuals, helping users immediately understand the website’s purpose.
+
+![1759027014065](image/README/1759027014065.png)
+
+
+* **Player Cards Section**
+
+Displays featured players with quick insights. This provides users with a quick overview of performance highlights without requiring them to delve into detailed reports.
+
+![Cards](assets/images/readme/cards.png)
+
+* **Reports Page**
+
+Provides a summarized performance report for 'Player of the week'. This feature helps recruiters and enthusiasts access quick evaluations of players.
+
+![Report](assets/images/readme/report.png)
+
+* **Statistics Section**
+
+On large devices, it is integrated directly into the main page, while on smaller devices, it appears as a dedicated page. It highlights key player attributes in a visual way.
+
+![Stats](assets/images/readme/stats.png)
+
+* **About Page**
+
+Explains the goal and scope of the project. This ensures new users understand the vision and target audience of Ballalyze.
+
+![About](assets/images/readme/about.png)
+
+* **Contact Page**
+
+Includes a simple contact form where users can send messages. It improves communication and allows feedback or inquiries about the project.
+
+![Contact](assets/images/readme/contact.png)
+
+* **Responsive Design**
+
+The site is fully responsive across devices (desktop, laptop, tablet, mobile). This ensures accessibility and usability for all screen sizes.
+
+* **Footer Section**
+
+Contains relevant information and links. It gives users a consistent closing element across the site, supporting navigation and project credibility.
+
+![1759026848407](image/README/1759026848407.png)
+
 
 ---
 
