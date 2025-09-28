@@ -18,7 +18,7 @@ The project is intended for football enthusiasts and recruiters looking to analy
 
 * **Navigation Bar**
 
-The navigation bar is available across all pages. It helps users easily navigate between sections (Home, About, Reports, Contact, and "Statistics on smaller Devices") .
+The navigation bar is available across all pages. It helps users easily navigate between sections (Home, About, Reports, Contact, and "Statistics on Smaller Devices").
 
 The active page is highlighted and underlined for better orientation.
 
@@ -136,7 +136,7 @@ This section explains how to test the functionality, responsiveness, and overall
 
 ### 1. Navigation Testing
 
-- Click through all navigation links in the Navbar (`Home`, `About`, `Reports`, `Contact`, and `Statistics` on smaller devices) to ensure they direct to the correct sections or pages.
+- Click through all navigation links in the Navbar (`Home`, `About`, `Reports`, `Contact`, and `Statistics` on Smaller devices) to ensure they direct to the correct sections or pages.
 - Check that the active page is highlighted and underlined in the Navbar.
 - **Note:** Player cards are non-clickable and do not link to other pages.
 - On the **Reports** page, users can view summaries of player performance.
@@ -184,6 +184,37 @@ The CSS file (`style.css`) was tested using the [W3C Jigsaw CSS Validation Servi
   ⚠️ *One minor warning is shown related to Google Fonts import, which is an external resource and not part of the authored CSS.*
 
 ![CSS Validation](assets/images/readme/validation/style.png)
+
+---
+
+## Lighthouse Testing (Google Chrome DevTools)
+
+The project was tested using **Lighthouse** in Google Chrome DevTools to measure performance, accessibility, best practices, and SEO.
+
+### Desktop Results (PC)
+
+- **Performance:** 95
+- **Accessibility:** 💯 100
+- **Best Practices:** 💯 100
+- **SEO:** 💯 100
+
+![Lighthouse Report - Pc](assets/images/readme/validation/lighthouse-pc.png)
+
+
+---
+
+
+---
+### Mobile Results
+
+- **Performance:** 62
+- **Accessibility:** 💯 100
+- **Best Practices:** 💯 100
+- **SEO:** 💯 100
+
+![Lighthouse Report-Mobile](assets/images/readme/validation/lighthouse-mobile.png)
+
+*These results confirm that the site is highly accessible and follows best practices, with excellent SEO. Performance is strong on desktop and can be optimized further for mobile devices.*
 
 ---
 
