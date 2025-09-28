@@ -353,6 +353,7 @@ iframe {
     outline: none;
     border-radius: 10px;
     box-shadow: 1px 1px 10px 1px #53017c9a;
+    transition: all 1s ease-in-out;
 }
 
 .contact-form .input:focus {
