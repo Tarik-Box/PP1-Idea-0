@@ -12,6 +12,19 @@ The project is intended for football enthusiasts and recruiters looking to analy
 
 ---
 
+
+
+## Table of Contents
+
+- [Features](#features)
+- [Project Structure](#project-structure)
+- [Technologies Used](#technologies-used)
+- [Installation](#installation)
+- [Testing](#testing--how-to-test)
+- [Deployment](#deployment)
+- [Author](#author)
+- [Credits](#credits--attributions)
+
 ## Features:
 
 ### Existing Features
