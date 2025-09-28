@@ -478,6 +478,10 @@ footer img {
     .player-card{
         gap: 25%;
     }
+    .contact-form textarea {
+        width: 75%;
+        height: 20rem;
+    }
 }
 
 @media(min-width: 992px){
@@ -578,13 +582,18 @@ footer img {
         margin: 0 auto;
     }
     .contact-form textarea {
-        width: 90%;
-        height: 20rem;
+        width: 80%;
+        height: 25rem;
     }
     #nav-links li{
         margin:0.5em 1rem;
     }
     .video{
         width: 55%;
+    }
+    .about{
+        grid-area: main;
+        margin: auto;
+
     }
 }
