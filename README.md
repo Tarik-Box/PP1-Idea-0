@@ -24,14 +24,11 @@ The active page is highlighted and underlined for better orientation.
 
 ![Navbar](assets/images/readme/nav.png)
 
-
-
 * **The landing page**
 
 The landing page introduces the project with a clear headline and football-themed visuals, helping users immediately understand the website’s purpose.
 
 ![1759027014065](image/README/1759027014065.png)
-
 
 * **Player Cards Section**
 
@@ -73,6 +70,14 @@ Contains relevant information and links. It gives users a consistent closing ele
 
 ![1759026848407](image/README/1759026848407.png)
 
+
+### Features Left to Implement
+
+- Make player cards dynamic by integrating real-time data via APIs.
+- Connect the project to a backend database for efficient data management.
+- Expand reporting capabilities with detailed and customizable player analytics.
+- Add advanced search and comparison pages for deeper insights.
+- Explore additional features and enhancements as the project evolves.
 
 ---
 
