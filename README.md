@@ -70,7 +70,6 @@ Contains relevant information and links. It gives users a consistent closing ele
 
 ![1759026848407](image/README/1759026848407.png)
 
-
 ### Features Left to Implement
 
 - Make player cards dynamic by integrating real-time data via APIs.
@@ -117,30 +116,8 @@ All HTML and CSS files have been checked using the official validators:
 
 ### HTML Validation
 
-All HTML pages (`index.html`, `about.html`, `contact.html`, `reports.html`, `statistics.html`) were tested using the [W3C Markup Validation Service](https://validator.w3.org/).
+All HTML pages (`index.html`, `about.html`, `contact.html`, `reports.html`, `statistics.html`) were tested using the [W3C Markup Validation Service](https://validator.w3.org/nu/?doc=https%3A%2F%2Ftarik-box.github.io%2FPP1-Idea-0%2F).
 All pages passed with no errors.
-
-**Example:**
-
-Index Page
-
-![Index HTML Validation](assets/images/readme/validation/index-html.png)
-
-Reports Page
-
-![Report HTML Validation](assets/images/readme/validation/reports.png)
-
-About Page
-
-![About HTML Validation](assets/images/readme/validation/about.png)
-
-Contact Page
-
-![Contact HTML Validation](assets/images/readme/validation/contact.png)
-
-Statistics Page
-
-![Statistics HTML Validation](assets/images/readme/validation/statistics.png)
 
 ### CSS
 
@@ -155,72 +132,6 @@ The CSS file (`style.css`) was tested using the [W3C Jigsaw CSS Validation Servi
 
 ---
 
-## About
-
-Ballalyze is designed as a learning project for front-end development training.
-It simulates a small-scale football analytics platform where users can view statistics, player comparisons, and insights in a clean and modern interface.
-It is also part of a larger personal project that will one day come to fruition.
-
----
-
-## User Experience (UX)
-
-##### User Stories:
-
-- **As a football fan**, I want to see player statistics so I can compare players visually.
-- **As a recruiter**, I want to navigate the site easily to find key player info.
-
----
-
-### Wireframes
-
-#### Home Page Wireframe
-
-![Home Page Wireframe](assets/images/readme/home.png)
-
-#### About Page Wireframe
-
-![About Page Wireframe](assets/images/readme/about.png)
-
-#### Report Page Wireframe
-
-![Report Page Wireframe](assets/images/readme/report.png)
-
-#### Contact Page Wireframe
-
-![Contact Page Wireframe](assets/images/readme/contact.png)
-
----
-
-## 📸 Preview / Responsiveness
-
-Am I Responsive result:
-[View Responsive Test](https://ui.dev/amiresponsive?url=https://tarik-box.github.io/PP1-Idea-0/index.html)
-
-Example images:
-
-![Responsive design 1](assets/images/readme/resp-1.png)
-![Responsive design 2](assets/images/readme/resp-2.png)
-
-Example images for different screen sizes:
-
-Desktop / 4K: ![Responsive 4K](assets/images/readme/4k.png)
-
-Desktop / 1440px: ![Responsive 1440](assets/images/readme/1440.png)
-
-Laptop / 1024px:
-
-![Responsive 1024](assets/images/readme/1024.png)
-
-Tablet / 768px:
-
-![Responsive 768](assets/images/readme/768.png)
-
-Mobile / 320px:
-
-![Responsive 320](assets/images/readme/320.png)
-
----
 
 ## Author
 
