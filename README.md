@@ -116,11 +116,57 @@ The site is fully responsive across devices (desktop, laptop, tablet, mobile). T
 
 ---
 
-## Validation
+## Installation
 
-All HTML and CSS files have been checked using the official validators:
+Clone the repository:
 
-### HTML Validation
+```bash
+git clone https://github.com/Tarik-Box/PP1-Idea-0.git
+```
+
+*The project can be fully inspected via the GitHub repository source code.*
+
+Repository link: [Ballalyze on GitHub](https://github.com/Tarik-Box/PP1-Idea-0)
+
+---
+
+## Testing / How to Test
+
+This section explains how to test the functionality, responsiveness, and overall usability of the **Ballalyze** project.
+
+### 1. Navigation Testing
+
+- Click through all navigation links in the Navbar (`Home`, `About`, `Reports`, `Contact`, and `Statistics` on smaller devices) to ensure they direct to the correct sections or pages.
+- Check that the active page is highlighted and underlined in the Navbar.
+- **Note:** Player cards are non-clickable and do not link to other pages.
+- On the **Reports** page, users can view summaries of player performance.
+- On the **About** page, users can learn about the project and its purpose.
+- On the **Contact** page, users can view the contact form (if implemented) or contact information for inquiries.
+
+### 2. Responsiveness Testing
+
+Open Chrome DevTools (F12) or any browser developer tools.
+
+- Use the device toolbar to simulate different screen sizes:
+
+  - Desktop (1920px, 1366px)
+  - Laptop (1280px, 1024px)
+  - Tablet (768px, 600px)
+  - Mobile (375px, 320px)
+- Verify that the layout adjusts correctly, text is readable, and images scale appropriately.
+- Ensure navigation and content remain usable at all breakpoints.
+
+### 3. Content Verification
+
+Check each page (`index.html`, `about.html`, `reports.html`, `contact.html`, `statistics.html`) for:
+
+- Correct headings, paragraphs, and sections.
+- Proper display of images and icons.
+- Consistent design and spacing.
+
+### 4. Validator Testing
+
+* HTML
 
 All HTML pages (`index.html`, `about.html`, `contact.html`, `reports.html`, `statistics.html`) were tested using the
 
@@ -128,7 +174,7 @@ All HTML pages (`index.html`, `about.html`, `contact.html`, `reports.html`, `sta
 
 All pages passed with no errors.
 
-### CSS
+* CSS
 
 The CSS file (`style.css`) was tested using the [W3C Jigsaw CSS Validation Service](https://jigsaw.w3.org/css-validator/).
 
