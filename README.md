@@ -1,7 +1,14 @@
 ﻿# Ballalyze ⚽📊
 
-Ballalyze is a simple football data analytics demo project built with **HTML** and **CSS**.
+Ballalyze is a football data analytics demo project built with **HTML5** and **CSS3**.
 The goal of this project is to practice semantic HTML structure, accessibility features (ARIA roles, labels), and modern layout techniques using **CSS Grid** and **Flexbox**.
+
+Ballalyze enables users to explore player statistics, compare performance metrics, and gain insights through a clean and modern interface.
+The project is intended for football enthusiasts and recruiters looking to analyze player performance.
+
+
+![Am I Responsive Result](assets/images/readme/responsive.png)
+
 
 *The project is deployed on GitHub Pages and can be viewed* [here](https://tarik-box.github.io/PP1-Idea-0/)
 
@@ -10,13 +17,21 @@ The goal of this project is to practice semantic HTML structure, accessibility f
 ## Features
 
 - Responsive layout using CSS Grid and Flexbox.
+- Interactive navigation bar with hover and active states.
 - Semantic HTML elements (`<header>`, `<nav>` , `<main>`, `<section>`,`<article>`, `<aside>`, `<footer>`).
-- Multiple pages: Home, About, Report, Contact, Statistics.
+- Multiple pages: Home, About, Report, Contact, Statistics on smaller devices.
 - Accessible design with **ARIA labels** for screen readers.
 - Stylish hover effects and smooth transitions in CSS.
-- Interactive navigation bar with hover and active states.
 - "About Us" section for presentation.
 - Player cards for presenting information (non-clickable).
+
+### Existing Features
+
+#### Navigation Bar
+
+- Fully responsive navigation bar on all pages.
+- Highlights the active page.
+- Adapts to smaller screens.
 
 ---
 
@@ -141,7 +156,6 @@ Example images:
 ![Responsive design 1](assets/images/readme/resp-1.png)
 ![Responsive design 2](assets/images/readme/resp-2.png)
 
-
 Example images for different screen sizes:
 
 Desktop / 4K: ![Responsive 4K](assets/images/readme/4k.png)
@@ -155,7 +169,6 @@ Laptop / 1024px:
 Tablet / 768px:
 
 ![Responsive 768](assets/images/readme/768.png)
-
 
 Mobile / 320px:
 
@@ -214,8 +227,6 @@ Open Chrome DevTools (F12) or any browser developer tools.
 * Ensure the navigation and content remain usable at all breakpoints.
 
 ---
-
-
 
 ## Credits / Attributions
 
